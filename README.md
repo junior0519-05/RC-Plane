@@ -16,6 +16,10 @@ _*created by Junior Ortega and Bryan Diaz; Focus in embedded systems, wireless c
 - C++ (Receiver: receive values from transmitter and map them to correspond to each motor task. Transmitter: read joystick input values and have them get sent to receiver.)
 - Fusion 360 (Design each component of the airplane and section them into multiple 3D printable pieces with respect to size.)
 
+## Controls
+Left Joystick; mapped to control the brushless DC motor
+Right Joystick; mapped to control the rudder using the x axis values and the elevator using the y axis.
+
 
 
 
