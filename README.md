@@ -28,3 +28,9 @@ Right Joystick; mapped to control the rudder using the x axis values and the ele
 <img width="1231" height="781" alt="image" src="https://github.com/user-attachments/assets/e6d045a7-2d43-4123-a1d2-dbe1535500bf" />
  
 _Fusion design with all pieces parted out to print_
+
+
+## Physical Model
+![0](https://github.com/user-attachments/assets/55fb24df-68d4-4ae0-ac05-cacaa7c36ed4)
+
+
