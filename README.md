@@ -1,33 +1,33 @@
 # ESP-NOW RC FLIGHT
 
-A high performance, fully designed custom 3 channel RC plane using a CLARK-Y airfoil design. 
+A high-performance, custom-designed 3-channel RC aircraft featuring a CLARK-Y airfoil and an ESP32-based control system.
 
-_*created by Junior Ortega and Bryan Diaz; Focus in embedded systems, wireless communication, and general/end to end engineering._
+_*created by Junior Ortega and Bryan Diaz; Focus in embedded systems, wireless communication, end to end engineering._
 
-# Overview
+## Overview
 M.M.26 is a high-performance, fixed-wing RC aircraft designed and manufactured using additive manufacturing and custom embedded systems. The project focuses on end-to-end system development, including airframe design, electronics integration, and a custom 2.4 GHz radio communication stack built from the ground up using ESP-NOW.
 
 Unlike typical RC builds that rely on off-the-shelf transmitters and receivers, this project prioritizes deep engineering control, low-latency communication, and rapid iteration through modular design.
 
-# Technologies and Components 
-## Hardware Related
+## Technologies and Components 
+### Hardware Related
 - Microcontroller: ESP32
 - Propulsion: 2200 KV Brushless DC motor
 - Mechanics: 9g Servo motors
 - Control: Joysticks
 
-## Software Related
+### Software Related
 - Programming: Arduino C++ (Receiver: receive values from transmitter and map them to correspond to each motor task. Transmitter: read joystick input values and have them get sent to receiver.)
 - CAD: Fusion 360 (Design each component of the airplane and section them into multiple 3D printable pieces with respect to size.)
 - Wireless Protocol: ESP-NOW
 
-# System Architecture
-## Airfraime
+## System Architecture
+### Airfraime
 - Custom fixed-wing design optimized for high lift-to-weight ratio
 - Thin-wall, surface-based modeling to reduce mass while maintaining rigidity
 - Modular fuselage and wing sections for fast repairs and iteration
 
-## Electronics & Control
+### Electronics & Control
 - ESP32-based onboard controller
 - Custom hand-held transmitter using ESP-NOW for direct peer-to-peer communication
 - Joystick inputs mapped to PWM outputs for:
@@ -35,13 +35,13 @@ Unlike typical RC builds that rely on off-the-shelf transmitters and receivers, 
   -   Control surface servos
 - Adjustable battery mounting system for Center of Gravity (CoG) tuning
 
-# Implementation Details
+## Implementation Details
 - Designed the entire airframe in Fusion 360, balancing aerodynamic efficiency and printability
 - Implemented a custom 2.4 GHz radio link using ESP-NOW, achieving significantly lower latency than standard Wi-Fi
 - Programmed real-time signal processing to convert joystick inputs into stable flight control outputs
 - Designed modular internal electronics housing to simplify maintenance and upgrades
 
-# Results
+## Results
 - Weight Efficiency:
   Total aircraft mass under 1000 g, achieving a 1:1 thrust-to-weight ratio for reliable climb performance
 - Low Latency Control:
