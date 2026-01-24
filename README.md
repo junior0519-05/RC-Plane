@@ -35,6 +35,20 @@ Unlike typical RC builds that rely on off-the-shelf transmitters and receivers, 
   -   Control surface servos
 - Adjustable battery mounting system for Center of Gravity (CoG) tuning
 
+# Implementation Details
+- Designed the entire airframe in Fusion 360, balancing aerodynamic efficiency and printability
+- Implemented a custom 2.4 GHz radio link using ESP-NOW, achieving significantly lower latency than standard Wi-Fi
+- Programmed real-time signal processing to convert joystick inputs into stable flight control outputs
+- Designed modular internal electronics housing to simplify maintenance and upgrades
+
+# Results
+- Weight Efficiency:
+  Total aircraft mass under 1000 g, achieving a 1:1 thrust-to-weight ratio for reliable climb performance
+- Low Latency Control:
+  ESP-NOW link optimized to achieve <5 ms response time, resulting in crisp and responsive control
+- Rapid Iteration & Durability:
+  Modular 3D-printed components enabled field repairs and redesigns in under 2 hours
+
 # Pictures
 
 ## Physical Model
