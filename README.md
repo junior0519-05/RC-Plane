@@ -11,21 +11,29 @@ Unlike typical RC builds that rely on off-the-shelf transmitters and receivers, 
 
 # Technologies and Components 
 ## Hardware Related
-- ESP32
-- 2200 KV Brushless DC motor
-- 9g Servo motors
-- Joysticks
+- Microcontroller: ESP32
+- Propulsion: 2200 KV Brushless DC motor
+- Mechanics: 9g Servo motors
+- Control: Joysticks
 
 ## Software Related
-- C++ (Receiver: receive values from transmitter and map them to correspond to each motor task. Transmitter: read joystick input values and have them get sent to receiver.)
-- Fusion 360 (Design each component of the airplane and section them into multiple 3D printable pieces with respect to size.)
+- Programming: Arduino C++ (Receiver: receive values from transmitter and map them to correspond to each motor task. Transmitter: read joystick input values and have them get sent to receiver.)
+- CAD: Fusion 360 (Design each component of the airplane and section them into multiple 3D printable pieces with respect to size.)
+- Wireless Protocol: ESP-NOW
 
+# System Architecture
+## Airfraime
+- Custom fixed-wing design optimized for high lift-to-weight ratio
+- Thin-wall, surface-based modeling to reduce mass while maintaining rigidity
+- Modular fuselage and wing sections for fast repairs and iteration
 
-## Controls
-Left Joystick; mapped to control the brushless DC motor
-Right Joystick; mapped to control the rudder using the x axis values and the elevator using the y axis.
-
-
+## Electronics & Control
+- ESP32-based onboard controller
+- Custom hand-held transmitter using ESP-NOW for direct peer-to-peer communication
+- Joystick inputs mapped to PWM outputs for:
+  -   Brushless motor ESC
+  -   Control surface servos
+- Adjustable battery mounting system for Center of Gravity (CoG) tuning
 
 # Pictures
 
