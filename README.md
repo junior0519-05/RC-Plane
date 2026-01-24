@@ -4,6 +4,10 @@ A high performance, fully designed custom 3 channel RC plane using a CLARK-Y air
 
 _*created by Junior Ortega and Bryan Diaz; Focus in embedded systems, wireless communication, and general/end to end engineering._
 
+# Overview
+M.M.26 is a high-performance, fixed-wing RC aircraft designed and manufactured using additive manufacturing and custom embedded systems. The project focuses on end-to-end system development, including airframe design, electronics integration, and a custom 2.4 GHz radio communication stack built from the ground up using ESP-NOW.
+
+Unlike typical RC builds that rely on off-the-shelf transmitters and receivers, this project prioritizes deep engineering control, low-latency communication, and rapid iteration through modular design.
 
 # Technologies and Components 
 ## Hardware Related
