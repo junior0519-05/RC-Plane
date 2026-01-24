@@ -7,9 +7,6 @@ _*created by Junior Ortega and Bryan Diaz; Focus in embedded systems, wireless c
 
 # Technologies and Components 
 ## Hardware Related
-
-###  yesy
-yes
 - ESP32
 - 2200 KV Brushless DC motor
 - 9g Servo motors
