@@ -31,6 +31,15 @@ _Fusion design with all pieces parted out to print_
 
 
 ## Physical Model
-![0](https://github.com/user-attachments/assets/55fb24df-68d4-4ae0-ac05-cacaa7c36ed4)
+![Plane - main view](https://github.com/user-attachments/assets/18198f52-6249-48ca-9e67-01ad37c2b8c7)
+
+_Front view of plane_
+![Plane_Rearview](https://github.com/user-attachments/assets/e84a4736-49ca-4d34-bbe5-239a6cf4dc8b)
+_Rear view of plane_
+
+![Plane_Tail](https://github.com/user-attachments/assets/227094b0-7500-4377-bf14-16ee6552f013)
+_Tail mechanics_
+
+
 
 
