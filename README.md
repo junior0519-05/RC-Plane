@@ -2,12 +2,12 @@
 
 A high-performance, custom-designed 3-channel RC aircraft featuring a CLARK-Y airfoil and an ESP32-based control system.
 
-_*created by Junior Ortega and Bryan Diaz; Focus in embedded systems, wireless communication, end to end engineering._
+_*Created by Junior Ortega and Bryan Diaz; Focus in embedded systems, wireless communication, end to end engineering._
 
 ## Overview
 M.M.26 is a high-performance, fixed-wing RC aircraft designed and manufactured using additive manufacturing and custom embedded systems. The project focuses on end-to-end system development, including airframe design, electronics integration, and a custom 2.4 GHz radio communication stack built from the ground up using ESP-NOW.
 
-Unlike typical RC builds that rely on off-the-shelf transmitters and receivers, this project prioritizes deep engineering control, low-latency communication, and rapid iteration through modular design.
+Unlike typical RC builds that rely on off-the-shelf transmitters and receivers, this project prioritizes deep engineering control, low-latency communication, and rapid iteration through modular design. The fuselage is segmented into nose, mid, and tail sections, allowing independent iteration as the design evolved
 
 ## Technologies and Components 
 ### Hardware Related
@@ -17,12 +17,12 @@ Unlike typical RC builds that rely on off-the-shelf transmitters and receivers, 
 - Control: Joysticks
 
 ### Software Related
-- Programming: Arduino C++ (Receiver: receive values from transmitter and map them to correspond to each motor task. Transmitter: read joystick input values and have them get sent to receiver.)
+- Programming: Arduino C++ (Transmitter reads joystick inputs; receiver maps values to PWM outputs for motor and control surfaces)
 - CAD: Fusion 360 (Design each component of the airplane and section them into multiple 3D printable pieces with respect to size.)
 - Wireless Protocol: ESP-NOW
 
 ## System Architecture
-### Airfraime
+### Airframe
 - Custom fixed-wing design optimized for high lift-to-weight ratio
 - Thin-wall, surface-based modeling to reduce mass while maintaining rigidity
 - Modular fuselage and wing sections for fast repairs and iteration
@@ -49,9 +49,9 @@ Unlike typical RC builds that rely on off-the-shelf transmitters and receivers, 
 - Rapid Iteration & Durability:
   Modular 3D-printed components enabled field repairs and redesigns in under 2 hours
 
-# Pictures
+## Pictures
 
-## Physical Model
+### Physical Model
 ![Plane - main view](https://github.com/user-attachments/assets/18198f52-6249-48ca-9e67-01ad37c2b8c7)
 
 _Front view of plane_
@@ -62,7 +62,7 @@ _Rear view of plane_
 _Tail mechanics_
 
 
-## Fusion
+### Fusion
 <img width="1231" height="781" alt="image" src="https://github.com/user-attachments/assets/e6d045a7-2d43-4123-a1d2-dbe1535500bf" />
  
 _Fusion design with all pieces parted out to print_
